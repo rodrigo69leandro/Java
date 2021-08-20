@@ -38,7 +38,7 @@ public class exercicio1 {
 		
 		System.out.println("A soma dos números é de " + soma);
 		System.out.println("A multiplicação dos número é de " + multiplicacao);
-		System.out.println("A divisão dos números é de " + divisao);
+		System.out.println("A divissão dos números é de " + divisao);
 		System.out.println("O resto da divisão entre os números é de " + divisao);
 		System.out.println("A raiz quadrada do número " + numero1 + " é " + raizN1);	
 		System.out.println("A raiz quadrada do número " + numero2 + " é " + raizN2);
