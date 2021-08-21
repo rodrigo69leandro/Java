@@ -13,9 +13,8 @@ public class TestaBanco {
 		Conta contaRodrigo = new Conta();
 		contaRodrigo.deposita(600);
 		
-		contaRodrigo.titular = rodrigo;
+		contaRodrigo.titular = rodrigo; // para asssociar o cliente a conta
 	
-		
 		System.out.println(contaRodrigo.titular.nome);
 	}
 }
