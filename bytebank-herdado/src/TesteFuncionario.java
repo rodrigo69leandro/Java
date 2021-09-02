@@ -8,7 +8,7 @@ public class TesteFuncionario {
 		
 		rodrigo.setNome("Rodrigo Leandro");
 		rodrigo.setCpf("12345678909");
-		rodrigo.setSalario(15000);
+		rodrigo.setSalario(1000);
 		
 		System.out.println("Salario do " + rodrigo.getNome() + " é de " + rodrigo.getSalario());
 		System.out.println("A bonificação é de " + rodrigo.getBonificacao());

@@ -17,8 +17,13 @@ public class Gerente extends Funcionario {
 	};
 	
 	
-	//public double getBonificacao() {
-	//	return this.salario * 0.1;
-	//}
+////	public double getBonificacao() {
+////		return super.getBonificacao() + super.getSalario; // super, indica que o salario está definido na classe mãe
+////	} -- Para que funcione assim, é necessario utilizar o PROTECTED em SALARIO na classe funcionario mas não é uma boa maneira de realizar
+//	pois podemos utilizar os metodos para acessar o salario e assim ter mais segurança.
+	
+	public double getBonificacao() {
+		return super.getBonificacao() + super.getSalario(); // super, indica que o salario está definido na classe mãe
+	}
 	
 }

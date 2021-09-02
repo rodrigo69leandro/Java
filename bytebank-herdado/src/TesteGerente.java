@@ -7,7 +7,7 @@ public class TesteGerente {
 		Gerente g1 = new Gerente();
 		g1.setNome("Irineu");
 		g1.setCpf("58915814");
-		g1.setSalario(5000.0);
+		g1.setSalario(2000);
 		
 		System.out.println(g1.getNome());
 		System.out.println(g1.getcpf());
@@ -21,6 +21,8 @@ public class TesteGerente {
 		
 		
 		System.out.println(autenticou);
+		
+		System.out.println(g1.getBonificacao());
 	
 		
 	}
