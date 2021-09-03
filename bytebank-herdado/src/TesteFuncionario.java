@@ -4,7 +4,7 @@ public class TesteFuncionario {
 	
 	public static void main(String[] args) {
 		
-		Funcionario rodrigo = new Funcionario();
+		Funcionario rodrigo = new Gerente(); // deixando funcionario como abstrato, não posso criar mais nenhum funcionario comum
 		
 		rodrigo.setNome("Rodrigo Leandro");
 		rodrigo.setCpf("12345678909");

@@ -4,23 +4,11 @@ public class ControleBonificacao {
 	
 	private double soma;
 	
-	public void registra(Gerente g) {
-		
-		double boni = g.getBonificacao();
-		this.soma = this.soma + boni;
-		
-	}
-	
-	public void registra(Funcionario f) {
+	public void registra(Funcionario f) { // Utilizando a referencia generica - polimorfismo +- inventar um codigo generico e utilizar em qualquer lugar
+										  // Referências de tipos de classes mais genéricas referenciam objetos mais específicos.
 		double boni = f.getBonificacao();
 		this.soma = this.soma + boni;
-	}
-	
-	
-	
-	public void registra(EditorVideo ev) {
-		double boni = ev.getBonificacao();
-		this.soma = this.soma + boni;
+		
 	}
 	
 	public double getSoma() {

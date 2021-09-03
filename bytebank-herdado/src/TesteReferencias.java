@@ -10,17 +10,21 @@ public class TesteReferencias {
 		String nome = g1.getNome();
 		g1.setSalario(5000);
 		
-		Funcionario f = new Funcionario();
-		f.setSalario(2000);
+//		Funcionario f = new Funcionario(); // deixando funcionario como abstrato, não posso criar mais nenhum funcionario comum
+//		f.setSalario(2000);
 		
 		EditorVideo ev = new EditorVideo();
 		ev.setSalario(2000);
 		
+		Designer d = new Designer();
+		d.setSalario(3000);
+		
 		
 		ControleBonificacao controle = new ControleBonificacao();
 		controle.registra(g1);
-		controle.registra(f);
+		//controle.registra(f);
 		controle.registra(ev);
+		controle.registra(d);
 		
 	}
 }
