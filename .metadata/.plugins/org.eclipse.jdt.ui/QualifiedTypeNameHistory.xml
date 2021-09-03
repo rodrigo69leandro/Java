@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
+    <fullyQualifiedTypeName name="Gerente"/>
+    <fullyQualifiedTypeName name="Funcionario"/>
 </qualifiedTypeNameHistroy>
