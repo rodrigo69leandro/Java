@@ -1,5 +1,6 @@
 
-public abstract class Funcionario {
+public abstract class Funcionario { // Não podemos instanciar está classe pois é abstrata!
+									// ABSTACT = Não possuem corpo (implementação), apenas definem a assinatura.
 
 	
 	private String nome;
@@ -10,9 +11,7 @@ public abstract class Funcionario {
 		
 	};// JAVA cria automaticamente, portanto não é necessario quando se tem apenas um construtor.
 	
-	public double getBonificacao() {
-		return this.salario  * 0.05;
-	}
+	public abstract double getBonificacao(); // nn há implementacao deste metodo aqui mas sim nas classes filhas
 	
 	public String getNome() {
 		return nome;

@@ -2,6 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.parser.Scanner"/>
-    <fullyQualifiedTypeName name="Gerente"/>
     <fullyQualifiedTypeName name="Funcionario"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.asm.sparc.SPARCAssembler.CC"/>
+    <fullyQualifiedTypeName name="ContaCorrente"/>
+    <fullyQualifiedTypeName name="ContaPoupanca"/>
+    <fullyQualifiedTypeName name="Gerente"/>
 </qualifiedTypeNameHistroy>

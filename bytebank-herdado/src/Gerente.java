@@ -1,6 +1,6 @@
 
 
-public class Gerente extends Funcionario {
+public class Gerente extends Autenticavel  {
 
 	private int senha;
 	
@@ -23,7 +23,7 @@ public class Gerente extends Funcionario {
 //	pois podemos utilizar os metodos para acessar o salario e assim ter mais segurança.
 	
 	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario(); // super, indica que o salario está definido na classe mãe
+		return super.getSalario(); // super, indica que o salario está definido na classe mãe
 	}
 	
 }

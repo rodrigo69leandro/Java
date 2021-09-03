@@ -23,6 +23,13 @@ public class ContaCorrente extends Conta{ // extendendo a conta, herdamos os atr
 		
 			return super.saca(valorAsacar);
 		}
+
+
+	@Override
+	public void deposita(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	
 	
