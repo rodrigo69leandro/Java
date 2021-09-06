@@ -1,16 +1,21 @@
 
-public abstract class Autenticavel {
+public abstract interface  Autenticavel {
 	
-	private int senha;
+	
+//	DENTRO DE UMA INTERFACE, NÃO PODE TER NADA CONCRETO!
+//	private int senha;
 
-	public void setSenha(int senha) {
-		this.senha = senha;
+	public abstract void setSenha(int senha);
+//		this.senha = senha; 
+	
+
+	public abstract boolean autenticacao(int senha);
+//		if (this.senha == senha) {
+//			return true;
+//		} else
+//			return false;
+
+
+	double getBonificacao();
 	}
 
-	public boolean autenticacao(int senha) {
-		if (this.senha == senha) {
-			return true;
-		} else
-			return false;
-	}
-}

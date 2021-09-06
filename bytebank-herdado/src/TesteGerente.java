@@ -13,8 +13,14 @@ public class TesteGerente {
 		System.out.println(g1.getcpf());
 		System.out.println(g1.getSalario());
 		
-//		g1.setSenha(123);
-//		boolean autenticou = g1.autenticacao(123);
+		Funcionario g2 = new Gerente();
+		
+		
+		
+		
+		
+		g1.setSenha(123);
+		boolean autenticou = g1.autenticacao(123);
 //		
 //		
 //		

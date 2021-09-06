@@ -1,6 +1,6 @@
 
 
-public class Gerente extends Autenticavel  {
+public class Gerente extends Funcionario implements Autenticavel  {
 
 	private int senha;
 	

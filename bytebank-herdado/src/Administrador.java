@@ -1,5 +1,5 @@
 
-public class Administrador extends Autenticavel {
+public class Administrador implements Autenticavel { 
 
 	private int senha;
 
@@ -14,6 +14,7 @@ public class Administrador extends Autenticavel {
 			return false;
 	};
 
+	
 	@Override
 	public double getBonificacao() {
 		return 0;
